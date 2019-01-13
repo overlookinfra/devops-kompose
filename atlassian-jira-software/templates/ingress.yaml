@@ -18,7 +18,7 @@ metadata:
 spec:
   backend:
     serviceName: {{ $fullName }}
-    servicePort: 8080
+    servicePort: 443
 {{- if .Values.ingress.tls }}
   tls:
   {{- range .Values.ingress.tls }}
