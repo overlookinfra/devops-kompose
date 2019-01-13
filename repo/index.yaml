@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  atlassian-confluence:
+  - apiVersion: v1
+    appVersion: 6.9.0
+    created: 2019-01-12T17:27:35.184684-08:00
+    description: Enterprise Wiki Collaboration Platform.
+    digest: f33f8c445fa6d85f38027e233821abb95cbd8d1d187cc38d7bfd9fb097b2a273
+    home: https://www.atlassian.com/software/confluence
+    keywords:
+    - atlassian
+    - confluence
+    name: atlassian-confluence
+    sources:
+    - https://bitbucket.org/atlassian/docker-atlassian-confluence-server
+    urls:
+    - atlassian-confluence-0.1.0.tgz
+    version: 0.1.0
+  atlassian-jira-software:
+  - apiVersion: v1
+    appVersion: 7.10.1
+    created: 2019-01-12T17:27:35.185053-08:00
+    description: Project Management Tool for Agile Teams.
+    digest: 97d3d7709d42e9716209ee94a9e1e60ac4e3a5c6bfcb83e6e363ff32d61ae34b
+    home: https://www.atlassian.com/software/jira
+    keywords:
+    - atlassian
+    - jira
+    name: atlassian-jira-software
+    sources:
+    - https://github.com/cptactionhank/docker-atlassian-jira-software
+    urls:
+    - atlassian-jira-software-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-01-12T17:27:35.184162-08:00
